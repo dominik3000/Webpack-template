@@ -10,6 +10,27 @@ h2
     color: $colorHeading;
 }
 
+#submitButton{
+    width: 125px;
+    height: 25px;
+
+}
+
 h1{
     @extend h2;
+    margin: auto;
+}
+html,body
+{
+
+    height: 100%;
+}
+
+.resultRowRed
+{
+    background-color:rgb(255, 158, 47);
+}
+.resultRowGreen
+{
+    background-color: rgb(158, 255, 67);
 }
